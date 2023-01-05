@@ -1,0 +1,38 @@
+{
+  "name": "manual-review-rule",
+  "attributes": {
+    "armoBuiltin": true
+  },
+  "ruleLanguage": "Rego",
+  "match": [
+    {
+      "apiGroups": [
+        ""
+      ],
+      "apiVersions": [
+        "v1"
+      ],
+      "resources": [
+          "Pod"
+      ]
+    },
+    {
+      "apiGroups": [
+        "apps"
+      ],
+      "apiVersions": [
+        "v1"
+      ],
+      "resources": [
+          "Deployment"
+      ]
+    }
+  ],
+  "dynamicMatch": [
+
+  ],
+  "ruleDependencies": [],
+  "description": "This is demo rule for manual review.",
+  "remediation": "This is demo rule for manual review.",
+  "ruleQuery": ""
+}

@@ -5,6 +5,7 @@
         "armoBuiltin": true
     },
     "controlsNames": [
+        "Manual Review Control",
         "Enforce Kubelet client TLS authentication",
         "Secret/ETCD encryption enabled",
         "Applications credentials in configuration files",

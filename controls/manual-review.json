@@ -1,0 +1,17 @@
+{
+    "name": "Manual Review Control",
+    "attributes": {
+        "armoBuiltin": true,
+        "actionRequired": "manual review"
+    },
+    "description": "This is demo control for manual review.",
+    "remediation": "This is demo control for manual review.",
+    "rulesNames": [
+        "manual-review-rule"
+    ],
+    "id": "C-9999",
+    "long_description": "This is demo control for manual review.",
+    "test": "This is demo control for manual review.",
+    "controlID": "C-9999",
+    "baseScore": 1.0
+}

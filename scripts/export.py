@@ -226,7 +226,7 @@ def remove_duplicate_exceptions(exceptions: List) -> List:
 
 
 def load_exceptions():
-    exceptions = os.path.join(currDir, 'exceptions')
+    exceptions = os.path.join(currDir, 'temp-exceptions')
     exceptions_path = Path(exceptions).glob('**/*.json')
     loaded_exceptions = []
 
